@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# Настройки IDE
+.vscode/
+.idea/
+*.iml
+
+# Тестирование и проверка качества
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Сборка и установка Python-пакетов
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Логи
+*.log
+logs/
+
+# Временные файлы
+.tmp/
+temp/
+.tmp*
+*.swp
+*.swo
+
+# Операционная система
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Локальные данные PostgreSQL
+pgdata/
+postgres_data/
+postgres-data/
+
+# Резервные копии
+*.sql.backup
+*.dump
+*.bak
